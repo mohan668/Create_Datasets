@@ -42,12 +42,12 @@ The purpose of this project is to capture images to build a custom dataset for d
     
 2. Create a virtual environment (recommended):
     
-    >>> python -m venv myenv
-    >>> myenv\Scripts\activate`
+     python -m venv myenv
+     myenv\Scripts\activate`
     
 3. Install dependencies:
     
-    >>> pip install -r requirements.txt
+     pip install -r requirements.txt
     
 
 ## Usage
@@ -58,13 +58,13 @@ To use the laptop's webcam for capturing images:
 
 1. Run the `capture_with_laptop.py` script:
     
-    >>> python capture_with_laptop.py
+     python capture_with_laptop.py
     
 2. When prompted, enter a class name for the object (e.g., `wrapper`, `specs`).
 3. If the class already exists, you can choose to add new images to it or change the class name.
 4. Start capturing images:
-   - Press `c` to capture an image.
-   - Press `q` to stop capturing and exit.
+    Press `c` to capture an image.
+    Press `q` to stop capturing and exit.
 
 Captured images will be saved in the `./images/<class_name>` directory.
 
@@ -74,7 +74,7 @@ To use a mobile camera for capturing images (via USB/WiFi):
 
 1. Run the `capture_with_mobile.py` script:
     
-    >>> python capture_with_mobile.py
+     python capture_with_mobile.py
     
 2. Follow the same prompts and steps as for laptop capture.
 
@@ -82,8 +82,8 @@ To use a mobile camera for capturing images (via USB/WiFi):
 
 - The default save directory for images is `./images/<class_name>`.
 - Image capture keys:
-  - `c` - Capture an image
-  - `q` - Quit and exit the capture window
+  `c` - Capture an image
+  `q` - Quit and exit the capture window
 
 ## Contributing
 
